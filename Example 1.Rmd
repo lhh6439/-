@@ -1,0 +1,11 @@
+---
+title: "Example 1"
+output: html_document
+---
+
+```{r}
+y<-lm(airquality$Ozone~airquality$Wind)
+plot(airquality$Wind,airquality$Ozone)
+abline(y)
+
+```
